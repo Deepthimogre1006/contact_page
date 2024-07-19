@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHREE Ganesh Electricals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size:large;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header-box {
+            background-color: #0a2d84;
+            padding: 30px;
+            margin: 10px;
+            border: 2px solid #e7acac;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-box {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav-box li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .nav-box li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-box li a:hover {
+            background-color: #d22424;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section-box {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .template-img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #041125;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin: 10px;
+            border: 2px solid #f7f1f1;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(90, 6, 6, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        form button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .image-grid img {
+            max-width: 600px;
+            height: auto;
+            border: 5px solid #ddd;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="header-box">
+        <nav>
+            <ul class="nav-box">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section-box">
+            <h1>Welcome to Our Electrical Services Website</h1>
+            <p>At Shree Ganesh Electricals, we are committed to providing 
+                top-quality electrical services for residential, commercial, 
+                and industrial clients. Our team of certified electricians is equipped 
+                with the expertise and experience to handle all your electrical needs safely and efficiently.</p>
+            <p>Whether you need a simple repair, an upgrade to your electrical system, 
+                or a complete installation for a new construction project, we have the skills and 
+                tools to get the job done right. We pride ourselves on delivering reliable and professional 
+                services that ensure the safety and satisfaction of our customers.</p>
+            <p>Explore our website to learn more about our services, read customer testimonials, 
+                and find out why Shree Ganesh Electricals is the trusted choice for all your electrical needs.
+                 Thank you for visiting, and we look forward to serving you!</p>
+        </section>
+        <section id="about" class="section-box">
+            <h1>About Us</h1>
+            <p>Welcome to Shree Ganesh Electricals!</p>
+            <p>With over two decades of experience in the electrical industry, Shree Ganesh Electricals
+                 has been a trusted name in providing comprehensive electrical solutions. Our journey began 
+                 with a mission to deliver reliable, efficient, and high-quality electrical services to our clients, 
+                 and we have stayed true to this mission ever since.</p>
+            <p>Our team of skilled and licensed electricians is dedicated to excellence in every project we undertake.
+                 From residential wiring to commercial installations and industrial maintenance, we offer a wide range 
+                 of services tailored to meet the unique needs of each client. Our commitment to safety, quality, and customer
+                  satisfaction has earned us a reputation for excellence in the industry.</p>
+            <p>At Shree Ganesh Electricals, we believe in continuous learning and staying updated with the 
+                latest advancements in technology and industry standards. This allows us to provide innovative 
+                solutions that enhance efficiency and reliability. We are passionate about what we do, and it reflects
+                 in the meticulous attention to detail and the superior craftsmanship that goes into every project.</p>
+            <p>Thank you for considering Shree Ganesh Electricals for your electrical needs. We look forward 
+                to partnering with you and delivering solutions that power your success.</p>
+            <div class="image-grid">
+                <img src="https://www.bestofelectricals.com/images/uploaded/home/WINDMILL-LIFESTYLE-FANS.jpg" alt="Electrical Products" class="template-img">
+                <img src="https://www.bestofelectricals.com/images/home/house-wire.jpg" alt="Electrical Products" class="template-img">
+                <img src="https://www.bestofelectricals.com/images/home/copper-flexible-wires.jpg" alt="Electrical Products" class="template-img">
+                <img src="https://www.bestofelectricals.com/images/home/rcbos.jpg" alt="Electrical Products" class="template-img">
+                <img src="https://www.bestofelectricals.com/images/home/telephone.jpg" alt="Electrical Products" class="template-img">
+                <img src="https://www.bestofelectricals.com/images/home/LED-flood-lights.jpg" alt="Electrical Products" class="template-img">
+            </div>
+        </section>
+        <section id="contact" class="section-box">
+            <h1>Contact Us</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="address">address:</address>:</label>
+                <textarea id="address" name="address" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formResult"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shree Ganesh Electricals</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('contactForm');
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+
+                const resultDiv = document.getElementById('formResult');
+
+                // Display the form data
+                resultDiv.innerHTML = `
+                    <h2>Form Submission Result</h2>
+                    <p><strong>Name:</strong> ${name}</p>
+                    <p><strong>Email:</strong> ${email}</p>
+                    <p><strong>Message:</strong> ${message}</p>
+                `;
+            });
+        });
+    </script>
+</body>
+</html>
